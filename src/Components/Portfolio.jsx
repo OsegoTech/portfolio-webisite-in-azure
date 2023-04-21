@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/side.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,6 +31,12 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
+    title: "My Resume Site",
+    description:
+      "Created using HTML and CSS only and deployed to github pages. Resposive, mobile first and accessible",
+    url: "https://osegotech.github.io/Portfolio/",
+  },
+  {
     title: "10 Things To Know About Azure Static Web Apps 🎉",
     description:
       "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
@@ -39,15 +45,10 @@ const projectList = [
   {
     title: "Web Development for Beginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "In this video, I show you how to use a Bootstrap Studio Desktop app. Its an app that allows you to quickly and easily design responsive websites using the bootstrap framework. It uses drag and drop html components and it does add all the tags and styling classes in the background, as a bonus, it also allows you to add custom styles that are not bundled with the bootstrap libraries. Watch till the end and comment if you would like to me to do a video on how to get a professional version for free!!!",
+    url: "https://www.youtube.com/watch?v=Z5n0coKp6Hk&t=12s",
   },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
+
   {
     title: "GitHub Codespaces and github.dev",
     description:
